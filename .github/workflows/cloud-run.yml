@@ -22,7 +22,7 @@ on:
 env:
   PROJECT_ID: ${{ secrets.RUN_PROJECT }}
   RUN_REGION: us-central1
-  SERVICE_NAME: mj9CMS-API
+  SERVICE_NAME: hello
 
 jobs:
   setup-build-deploy:
