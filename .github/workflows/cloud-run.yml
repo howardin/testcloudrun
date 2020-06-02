@@ -22,7 +22,7 @@ on:
 env:
   PROJECT_ID: ${{ secrets.RUN_PROJECT }}
   RUN_REGION: us-central1
-  SERVICE_NAME: hello
+  SERVICE_NAME: HELLO
 
 jobs:
   setup-build-deploy:
