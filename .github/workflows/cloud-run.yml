@@ -19,10 +19,12 @@ on:
     branches:
     - master
 
+# SERVICE_NAME 不可以用大寫
+# RUN_REGION 別忘記設定
 env:
   PROJECT_ID: ${{ secrets.RUN_PROJECT }}
-  RUN_REGION: us-central1
-  SERVICE_NAME: HELLO
+  RUN_REGION: asia-east1
+  SERVICE_NAME: hello
 
 jobs:
   setup-build-deploy:
